@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***********************************/
+.bg-blue{
+	background-color: blue;
+}
+.bg-white{
+	background-color: white;
+}
+.width{
+	width: 80%;	
+	margin: 0 auto;
+}
+.block1{
+	float: right;			 
+}
+.block{
+	float: left;	
+}
+.first-box{
+	padding: 50px;
+}
+a{
+	text-decoration: none;
+	color: silver;
+}
+header{
+	text-align: center;
+	line-height: 40px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: silver;
+	font-size: 15px;
+	font-weight: bold;
+}
+p{
+	color: silver;
+}
+h2{
+	font-size: 50px;
+	font-weight: bold;
+}
+.common{
+	display: flex;
+	padding-bottom: 30px;
+}
+.second-box{
+	padding: 50px;
+	line-height: 25px;
+}
+.second-box h3{
+	color: blue;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+.third-box{
+	border: 2px solid white;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	width: auto;
+}
+.third-box p{
+	padding-bottom:60px;
+	padding-top: 5px;
+	font-size: 15px;
+}
+.third-box h2{
+	font-weight: bold;
+	font-size: 20px;
+}
+.more{
+	color: white;
+	height: 50px;
+	width: 100px;
+	background-color: blue;
+	text-align: center;
+	padding-top: 10px;
+	margin-top:30px;
+} 
+.pic{
+	height:150px;
+	width: 150px;
+	border-radius: 50%;
+	padding: 30px;
+}
+.image{
+	height: 200px;
+	width: 500px;
+}
+h1{
+	color: blue;
+	font-size: 40px;
+	font-weight: bold;
+}
+footer{
+	border-top: 2px solid silver;
+	padding: 80px;
+}
+.logo{
+	height: 20px;
+	width: 20px;
+	float: right;
+}
+
