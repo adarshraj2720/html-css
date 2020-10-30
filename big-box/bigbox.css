@@ -1,0 +1,97 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*==========================================================
+  Main CSS
+  ==========================================================*/
+
+.google-guideline-box{
+	display: inline-block;
+	height: 100px;
+	width: 200px;
+	background: red;
+	padding-top: 55px;
+	padding-left: 100px;
+	padding-right:100px;
+	padding-bottom: 25px;
+	margin: 10px;	
+}
+.material-design-box{
+	display: inline-block;
+	height: 100px;
+	width: 50px;
+	background: orange;
+	padding-top: 40px;
+	padding-left: 80px;
+	padding-right:80px;
+	padding-bottom: 40px;
+	margin: 10px;
+}
+.doodle-archive-box{
+		background: darkblue;
+}
+.google-box{
+	    background: pink;
+		padding-top: 55px;
+		padding-bottom: 25px;
+}
+.design-minute-box{
+	background:lightblue;
+}
+.glass-design-box{
+	background: lightgreen;
+}
+.html-box{
+	background: yellow;
+}
+.css-box{
+	background: orange;
+}
+.javascript-box{
+	background: red;
+	padding-top: 40px;
+    padding-bottom: 40px;
+}
+.center{
+	text-align: center;
+}
