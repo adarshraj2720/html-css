@@ -62,8 +62,6 @@ a{
 	text-decoration: none;
 	color: white;
 	margin: 10px;
-	
-
 }
 .img-col{
 	display: flex;
@@ -78,8 +76,7 @@ a{
 }
 nav{
 	    display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 h1{
 	font-family: sans-serif;
