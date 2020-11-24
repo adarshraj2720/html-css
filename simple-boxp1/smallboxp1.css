@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------------------*/
+h1{
+	font-size: xx-large;
+	font-weight: bold;
+	padding: 10px;
+}
+.common-style{
+	height: 80px;
+	width: 160px;
+	background-color: red;
+	display: inline-block;
+	margin: 10px;
+}
+.first-box{
+    border: 5px black solid;
+    height: 80px;
+	width: 160px;
+	background-color: red;
+	margin: 10px;
+}
+.second-box{
+border: 5px black solid;
+}
+.third-box{
+border: 5px black dashed;
+}
+.fourth-box{
+border: 5px black dotted;
+}
+.five-box{
+	height: 90px;
+	width: 170px;
+	background-color: red;
+}
+.outer{
+  display: inline-block;
+  background: purple;
+}
+.inner {
+  display: inline-block;
+  height: 500px;
+  width: 400px;
+  background-color: red;
+	color: white;
+	font-size: 18px;
+  font-style: bold;
+  margin: 20px;
+  padding: 20px;
+  border-top:15px blue solid;
+  border-right:15px orange solid;
+  border-left:15px green solid;
+  border-bottom:15px yellow solid;
+}
+/*body{
+
+	/*background:repeating-linear-gradient(45deg,red,purple 50px,green 40px);
+	height: 110vh;
+	background: linear-gradient(45deg,rgb(76,0,255),transparent),
+	rgb(216,118,255) repeating-linear-gradient(45deg, rgb(183,0,255)0%, rgb(183,0,255)5%,transparent 5%,transparent 10%);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
