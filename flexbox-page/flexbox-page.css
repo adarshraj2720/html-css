@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/****************/
+header{
+	background-color: pink;
+}
+.top{
+	display: flex;
+	font-weight: bold;
+	justify-content: space-between;
+	font-size: 30px;
+	color: white;
+	padding: 30px 150px;
+}
+.bar{
+	margin-left: 20px;
+	font-size:18px; 
+	color: green;
+}
+.box{
+	display: flex;
+	justify-content: space-between;	
+}
+.para-1{
+
+	border-right: 2px solid silver;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 100px 0px;
+	line-height: 55px;
+	padding: 0px 140px 0px 150px;
+    width: 50%;	
+}
+.para-2{
+	font-family: sans-serif;
+	border-left: 2px solid silver;
+	font-size: 18px;
+	color: silver;
+	width: 50%;
+	margin: 100px 0px;
+	line-height: 30px;
+	padding: 0px 200px 0px 80px;
+}
+a{
+	text-decoration: none;
+}
+.extra{
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 30px;
+	background-color: green;		
+}
+.get{	 	
+	color: white;
+}
+.second-box{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px silver solid;
+}
+h2{
+	font-size: 35px;
+	font-weight: bold;
+}
+.space{
+	color: black;
+	font-size: 19px;
+	padding: 50px 0px;
+	line-height: 30px;
+}
+.para-3{
+   font-size: 18px;
+	margin: 80px 0px;
+	border-right:  2px solid silver;
+	 font-family: sans-serif;
+	padding: 0px 60px 0px 150px;
+    width: 50%;
+}
+.para-4{
+	font-family: sans-serif;
+	border-left:   2px solid silver;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	color: silver;
+	margin: 80px 0px;
+	width: 50%;
+	padding: 0px 200px 0px 0px;	
+}
+.line{
+	color: black;
+
+}
+.list a{
+	display: flex;
+	align-items: center;
+}
+.list{
+	padding:15px 0px;
+}
+.extra-1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 150px;
+	border-radius: 30px;
+	background-color: white;	
+	border: 2px solid silver;	
+}
+.get-1{
+    font-weight: bold;
+	color: black;
+}
+img{
+	padding-right:  30px;
+	height: 25px;
+	width: 25px;
+}
+.third-box{	
+	border: 140px solid silver  ;
+}
+.inner-box{
+
+	box-shadow: 2px 2px 2px 2px rgba(0,0,1,0);
+	display: flex;
+	border-bottom:  40px solid silver;	
+}
+.pic{
+   
+	height: 370px;
+	width: 500px;
+}
+.para{
+	font-family: sans-serif;
+	color: silver;
+	line-height: 25px;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.col-6{
+	margin: 80px 40px;
+}
+h3{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding-bottom: 30px;
+}
+.last{
+	padding-top:  20px;
+	background-color: silver;
+	display: flex;
+	justify-content: center;
+}
+.extra-2{
+	border: 2px solid black;
+	height: 30px;
+	width: 300px;
+}
+.get-2{
+	color: black;
+}
+.fourth-box{
+	display: flex;
+	justify-content: space-between;		
+}
+.para-5{
+	border-right:  2px solid silver;
+	line-height: 35px;
+	font-family: sans-serif;
+	font-size: 18px;
+	margin: 80px 0px;
+	padding: 0px 60px 0px 150px;
+    width: 50%;
+}
+.para-6{
+	margin: 80px 0px;
+	border-left:   2px solid silver;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: silver;
+	width: 50%;
+	padding: 0px 200px 0px 0px;	
+}
+input{
+	border:1px solid silver;
+	margin-top: 20px;
+	margin-right:  30px ;
+	height: 40px;
+	width: 220px;
+}
+.message{
+	margin: 20px 0px;
+	height: 180px;
+	width:480px;
+}
+.extra-3{
+	height: 30px;
+	width: 200px;
+}
+.icon{
+	height: 20px;
+	width: 20px;	
+}
+.social{
+	color: black;
+}
+footer{
+	color: silver;
+	display: flex;
+	justify-content: center;
+	padding: 80px 0px;
+	border-top: 2px solid silver;
+}
+
