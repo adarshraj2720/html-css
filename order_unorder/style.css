@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-style: center;
+ 
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/*---------------------*/
+body{  
+    background-color:#D4CEA7;
+    font-family: sans-serif;
+}
+header{
+    padding: 20px 0px 20px 170px;
+    font-size: 18px;
+    background-color: #F96115; 
+}
+a{
+   text-decoration: none;
+   color: white;
+   margin: 0px 10px;   
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.column{
+    background-color:#005979;
+    color: #D4CEA7;
+    /*height: 350px;
+    width: 350px;*/   
+    padding: 20px 180px 100px 30px;
+    margin: 10px 15px;
+    font-size:  20px ;
+    line-height: 40px;
+    box-shadow:  13px 13px 10px -4px rgba(0,0,0,0.72);
+}
+.number{
+    list-style: decimal inside;
+    padding-left: 20px;
+}
+.circle{
+    list-style: disc inside;
+}
+.square{
+    list-style: square inside;
+    padding-left: 20px;
+}
+img{
+    height: 20px;
+    width: 20px;
+    padding-right: 0px;
+}
+.same{
+    display: flex;
+    align-items: center;
+}
+.same img{
+    padding-right:  20px;
+}
+.extra{
+    padding-left: 50px;
+    line-height:55px;
+}
+.same a{
+    color: #D4CEA7;
+}
+dt{
+    margin: 15px 160px;
+    font-size: 24px ;
+    word-spacing: 10px;
+}
+dd{
+    font-size:  17px ;
+    margin: 5px 190px;
+    line-height: 25px;
+    color:#837D65;
+}
+footer{
+    margin-top: 40px;
+    background-color: #252C22;
+    padding: 40px 0px 40px 180px;;
+}
+.last span{
+    color: white;
+    padding-right: 30px;
+}
