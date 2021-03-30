@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/****************/
+main{
+	border: 0px 50px;
+	font-family: 'Karla', sans-serif;
+}
+header{
+	font-family: 'DM Serif Display', serif;
+	font-size: 40px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 40px;
+	margin: 0px 50px;
+	background-color: white;
+	color: black;
+}
+nav{
+	display: flex;
+    align-items: center;    
+}
+a{
+	font-size: 20px; 
+	text-decoration: none;
+	color: silver;
+	margin:0px 15px;
+}
+.outline{
+	font-size: 20px;
+	color: silver;
+	border:2px solid silver;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+.first-block{
+	display: flex;
+	justify-content: space-around;
+	background-color: blue;
+	height: 400px; 
+	width: auto;
+	color: white;
+	padding:  50px 100px;
+}
+.para{
+	padding-top: 30px;
+	padding-right: 300px;
+}
+.one{
+	width: 150px;
+	border:1px solid silver;
+	margin-bottom: 30px;
+}
+img{
+	height: 550px; 
+	width: 500px;
+}
+h1{
+	font-size: 50px;	
+	line-height: 1.2;
+	font-family: 'DM Serif Display', serif;
+}
+p{
+	color: silver;
+	font-size: 18px;
+	margin: 25px 0px;
+	line-height: 1;
+}
+.btn{
+	font-size: 20px;
+	width: auto;
+	border:2px solid silver;
+	padding: 10px;
+	border-radius: 5px;	
+}
+.view-btn{
+	height: 200px;
+	width: 150px;
+	text-align: center;
+}
+.second-block{
+	background-color: white;
+	color: black;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.pic{
+	height: 500px;
+	width: 500px;
+	border-radius: 5px;
+}
+.para1{
+    padding-top: 100px;
+	padding-left: 300px;
+}
+.block{
+	 margin: 100px 100px;	
+}
+h2{
+	font-family: 'DM Serif Display', serif;
+	font-size: 40px;	
+	margin: 40px 0px;
+}
+.third-block{ 
+	display: flex;
+	justify-content: space-between;
+}
+.setting{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	padding: 10px;
+	background-color: black;
+}
+h4{
+	font-size: 20px;
+	font-family: 'DM Serif Display', serif;
+	margin: 15px 0px;
+}
+.second{
+	margin: 0px 100px;
+}
+.fourth-block{
+	align-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	background-color: blue;
+	margin: 40px 100px;
+	padding: 60px 50px;
+}
+h3{
+	font-size: 36px;
+	font-family: 'DM Serif Display', serif;
+	color: white;
+	line-height: 1.5;
+}
+.btn1{
+	font-size: 20px;
+}
+.view-btn1{
+	text-align: center;
+	border:2px solid white;
+	height: 20px;
+	width: 180px;
+	color: white;
+	padding: 10px 0px;
+}
+.fifth-block{
+	display: flex;
+	justify-content: space-between;
+    border-bottom: 2px solid silver;
+	margin: 0px 100px;
+	padding-bottom: 10px;	
+}
+h5{
+	font-size: 30px;
+	font-weight: bold;
+}
+.logo{
+	border-radius: 25%;
+	height: 20px;
+	width: 20px;
+	color: silver;
+}
+.sixth-block{
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px;
+}
+footer{
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	padding:  40px 0px;
+	color: silver;
+}
+
+
+
+
+
+
+
+
+
+
+
