@@ -123,7 +123,10 @@ footer{
     background-color: #252C22;
     padding: 40px 0px 40px 180px;;
 }
-.last span{
+.last{
+  display: flex;
+}
+.last li{
     color: white;
     padding-right: 30px;
 }
