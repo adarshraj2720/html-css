@@ -70,13 +70,12 @@ main{
      padding-top:  120px;
      text-align: center;
 }
-.word{
+.google{
       letter-spacing: -5px;
       display: flex;
       justify-content: center;
 }
 .blue{
-    cursor: pointer;
     color: #4285F4;
     font:  90px  sans-serif;
 }
@@ -95,16 +94,17 @@ input{
  outline: none;
  border: none;
 }
-.box{
+.click-btn{
   display: flex;
   justify-content: center;
 }
-.dot{
+.dot-btn{
   height: 20px;
   width: 20px;
 }
-.search-box{
-  display: flex; 
+.type-btn{
+  display: flex;
+  padding-top: 5px; 
   box-shadow:  -4px 1px 10px -1px rgba(0,0,0,0.21);
   margin-top: 30px;
   height: 40px;
@@ -112,26 +112,26 @@ input{
   border:2px solid silver;
   border-radius: 30px;
 }
-.search{
+.btn{
   cursor: pointer;
   margin: 25px 10px;
   background-color: #F8F9FA;
   padding: 10px;
   font: 14px sans-serif;
 }
-.voice{
-  padding: 5px 5px;
-  height: 25px;
+.voice-icon{
+  padding: 5px 10px;
+  height: 23px;
 }
-.statement{
+.language-list{
   margin: 10px 0px;
   font: 13px  sans-serif; 
 }
-.more{
+.language{
   color: blue;
   font-size: 13px; 
 }
-.link{
+.footer-nav-link{
   margin: 0 10px;
   color: #70757A;
   font:14px   sans-serif;
@@ -141,13 +141,13 @@ footer{
   background-color: #F2F2F2;
   color: #70757A;
 }
-.last{
+.footer-nav-part-2{
   border-top: 1px solid silver;
   display: flex;
   justify-content: space-between;
   padding: 15px 25px;
 }
-.last1{
+.footer-nav-part-1{
   padding: 15px 0;; 
   margin: 0 30px;
   font: 14px arial, sans-serif;
