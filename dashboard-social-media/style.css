@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/****************/
+body{
+	background-color: #1D2029;
+}
+.block{
+	padding:  50px 150px;
+	background-color: #20222F;
+	height: 125px;
+	width: auto;
+}
+.one{
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+	padding:  10px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+p{
+	color: silver;
+}
+span{
+	color: silver;
+	font-size: 12px;
+	font-weight: bold;
+}
+.switch{
+	
+	padding-left: 15px;
+	height: 40px;
+	width: 50px;
+}
+.icon{
+	padding:  0px 8px;
+	height: 20px;
+	width: 20px;
+}
+img{
+	vertical-align: middle;
+}
+.first{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.box{
+	border-top: 4px solid #2B9DE5;
+	padding-top: 20px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #252B43;
+	height: 200px;
+	width: 240px;	
+}
+.red{
+	border-top: 4px solid #C20429;
+}
+.orange{
+	border-top: 4px solid #865556;
+}
+h2{
+	padding:  10px 0px;
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+}
+h3{
+	padding:  10px 0px;
+	color: silver;
+	letter-spacing: 3px;
+	font-size: 13px;
+}
+.grow{
+	color: green;
+	font-size: 12px;
+	font-weight: bold;
+}
+.grow1{
+	color: red;
+}
+.icon1{
+	padding:  15px 0px;
+	height: 10px;
+	width: 10px;
+}
+.block1{
+	padding:  150px 150px; 
+}
+.box1{	
+	border-radius: 3px;
+	text-align: center;
+	background-color: #252B43;
+	height: 120px;
+	width: 240px;
+}
+.part{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.digit{
+	font-size: 36px;
+	font-weight: bold;
+}
+.last{
+	padding-top: 5px;
+}
