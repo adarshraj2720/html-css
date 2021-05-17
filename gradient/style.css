@@ -81,11 +81,11 @@ h1{
 	background-image:radial-gradient(red,grey);
 }
 .fig-containeer{
-	padding-bottom: 30px;
+	padding: 20px;
 }
 .pic{
 	height: 400px;
-	width: 1250px;
+	width: 100%;
 	font-weight: bold;
 	font-size: 16px;
 	border-radius: 10px;
