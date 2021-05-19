@@ -324,3 +324,42 @@ footer{
     color: silver;
     text-align: center;
 }
+.map-block{
+    display: flex;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/gym_wallpaper1.jpg);
+    width: 50%;
+}
+form{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    width: 80%;
+}
+input{
+    border: 2px solid silver;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    color: silver;
+}
+.name{
+    margin-right: 20px;
+}
+.sub{
+    width: 99%;
+}
+.name-block{
+    display: flex;
+}
+textarea{
+    border: 2px solid silver;
+    width: 99%;
+    height: 150px;
+    color: silver;
+}
