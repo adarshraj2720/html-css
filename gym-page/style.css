@@ -326,6 +326,7 @@ footer{
 }
 .map-block{
     display: flex;
+    height: 500px;
 }
 .sign{
     display: flex;
@@ -334,6 +335,7 @@ footer{
     align-items: center;
     background-image: url(./images/gym_wallpaper1.jpg);
     width: 50%;
+    padding: ;
 }
 form{
     border-radius: 10px;
@@ -362,4 +364,11 @@ textarea{
     width: 99%;
     height: 150px;
     color: silver;
+}
+.msg{
+    margin-top: 20px;
+    border: 0;
+    padding: 15px;
+    background-color: #ED563A;
+    color: #FFFFFF;
 }
